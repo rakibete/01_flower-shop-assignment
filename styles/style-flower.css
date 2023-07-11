@@ -100,9 +100,8 @@
     width: 464px;
     height: 538px;
 }
-.fourth-para-main-div{
 
-}
+.fourth-para-main-div {}
 
 .fifth-para-main-div {
     display: flex;
@@ -111,19 +110,39 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
-.sixth-para-main-div{
+
+.sixth-para-main-div {
     text-align: center;
 }
-.seventh-para-main-div{
+
+.seventh-para-main-div {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.subscribe-main-div{
+
+.subscribe-main-div {
     text-align: center;
     background-image: url("../Rectangle\ 9.png");
+    /* width: 1440px;
+    height: 449px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
 }
-.subscriber-email-button{
+
+.subscriber-email-button {
     display: flex;
     justify-content: center;
+}
+
+.subscriber-email-box {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
 }
