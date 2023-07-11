@@ -12,17 +12,36 @@
     line-height: normal;
 }
 
-header {
+.header-main-div {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-between;
 }
 
 .header-div {
-    padding: 197px 972px 365px 240px;
+    /* padding: 197px 972px 0px 240px; */
+    margin-left: 240px;
+    margin-top: 197px;
+    margin-right: 972px;
 }
-.header-title{}
-|
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    margin-bottom: 32px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.header-flower{
+    margin-bottom: 0px;
+}
+
 .second-para {
     margin-top: 178px;
     margin-left: 746px;
