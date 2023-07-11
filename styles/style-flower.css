@@ -124,13 +124,10 @@
 .subscribe-main-div {
     text-align: center;
     background-image: url("../Rectangle\ 9.png");
-    /* width: 1440px;
-    height: 449px; */
+    height: 449px;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 449px;
-    flex-shrink: 0;
+
 }
 
 .subscriber-email-button {
@@ -145,4 +142,13 @@
     border-radius: 8px;
     background: #FFF;
     border: none;
+}
+
+footer {
+    background: #111010;
+    height: 449px;
+    flex-shrink: 0;
+}
+.FlowerShop{
+    color: #E55473;;
 }
