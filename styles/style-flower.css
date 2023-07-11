@@ -70,8 +70,15 @@
 
 .third-para-flower {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     gap: 24px;
+
+
+
+}
+
+.third-para-flower img {
+    align-content: center;
 }
 
 .third-para-flower000 {
@@ -83,14 +90,40 @@
 .third-para-flower001 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
 }
 
 .third-para-flower002 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.fourth-para-main-div{
+
 }
 
-.fifth-para-main-div{
+.fifth-para-main-div {
     display: flex;
-    justify-content: space-evenly
+    gap: 180px;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sixth-para-main-div{
+    text-align: center;
+}
+.seventh-para-main-div{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.subscribe-main-div{
+    text-align: center;
+    background-image: url("../Rectangle\ 9.png");
+}
+.subscriber-email-button{
+    display: flex;
+    justify-content: center;
 }
