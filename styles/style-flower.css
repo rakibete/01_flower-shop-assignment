@@ -16,7 +16,8 @@
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-between;
-    height: 850px;
+    height: 100%;
+    width: 100%;
     gap: 97px;
 }
 
@@ -24,13 +25,15 @@
     /* padding: 197px 972px 0px 240px; */
     margin-left: 240px;
     margin-top: 197px;
-    margin-right: 972px;
+    margin-right: 500px;
 }
 
 .header-title {
+    display:inline;
     color: #272727;
-    font-size: 80px;
+    font-size: 100px;
     margin-bottom: 32px;
+    font-family: Roboto, system-ui, sans-serif;
 }
 
 .header-description {
